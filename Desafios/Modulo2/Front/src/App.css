@@ -1,0 +1,42 @@
+.App {
+    background: #1D2226;
+    display: grid;
+    gap: 25px 50px;
+    grid-template-areas: "header header" "main cart";
+    min-height: 100%;
+}
+
+.App .header {
+    grid-area: header;
+}
+
+.App .main {
+    grid-area: main;
+}
+
+.App .cart {
+    grid-area: cart;
+    margin-right: 100px;
+}
+
+.main {
+    padding-bottom: 25px;
+    padding-left: 100px;
+    position: relative;
+}
+
+.topmovies {
+    margin-bottom: 40px;
+}
+
+.moves h2, .topmovies h2 {
+    color: white;
+    margin-bottom: 15px;
+}
+
+.movies-grid {
+    display: grid;
+    gap: 25px;
+    grid-template-columns: repear(auto-fit, minmax(170px, 1fr));
+    max-width: 940px;
+}

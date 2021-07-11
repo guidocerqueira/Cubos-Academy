@@ -1,0 +1,34 @@
+.filters{
+    display: flex;
+    gap: 25px;
+    margin-bottom: 25px;
+}
+
+.filter{
+    all: unset;
+    background: rgba(225,131,200,0.2);
+    border: 2px solid white;
+    box-sizing: border-box;
+    color: white;
+    cursor: pointer;
+    display: grid;
+    flex-basis: 170px;
+    font-family: 'Open Sans', sans-serif;
+    opacity: 0.2;
+    padding: 5px;
+    place-content: center;
+    text-align: center;
+}
+
+.filter:not(.filteractive):hover{
+    background: transparent;
+    border: 2px solid #e183c8;
+    color: #e183c8;
+    opacity: 1;
+}
+
+.filter .filteractive{
+    border: 2px solid #e183c8;
+    color: #e183c8;
+    opacity: 1;
+}

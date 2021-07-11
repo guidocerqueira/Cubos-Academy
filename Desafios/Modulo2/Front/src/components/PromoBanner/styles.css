@@ -1,0 +1,83 @@
+.promobanner{
+    background: url('../../assets/images/bg-promotion.svg');
+    color: #0f0915;
+    column-gap: 25px;
+    cursor: pointer;
+    display: grid;
+    font-family: 'Quantico', sans-serif;
+    grid-template-columns: auto 1px repeat (2, auto);
+    grid-template-rows: 60px auto;
+    height: 120px;
+    margin-bottom: 40px;
+    max-width: 935px;
+    padding: 15px 25px;
+}
+
+.promobanner h1{
+    font-size: 40px;
+    font-weight: normal;
+    opacity: 0.8;
+}
+
+.promobanner_cpcontainer{
+    display: flex; 
+    grid-row: 2;
+}
+
+.promobanner_cpcontainer svg{
+    margin-right: 15px;
+}
+
+.cpcontainer__title{
+    margin-right: 5px;
+}
+
+.cpcontainer__content, .cpcontainer__title {
+    text-transform: uppercase;
+}
+
+.promobanner_line{
+    border: 1px solid #f294d8;
+    grid-column: 2;
+    grid-row: 1 / span 2;
+    height: 45px;
+    margin-top: 20px;
+    opacity: 0.2;
+}
+
+.promobanner img{
+    grid-column: 4;
+    grid-row: 1 / span 2;
+    margin-top: -50px;
+}
+
+.promobanner_timecontainer{
+    column-gap: 10px;
+    display: grid;
+    grid-template-columns: 35px 80px auto;
+    grid-template-rows: auto auto;
+    margin-top: 20px;
+    row-gap: 15px;
+}
+
+.promobanner_timecontainer h2{
+    column-gap: 10px;
+    font-size: 25px;
+    font-weight: normal;
+    grid-column: 1 / span 3;
+    opacity: 0.8;
+    row-gap: 15px;
+}
+
+.promobanner_timecontainer svg{
+    grid-column: 1;
+    place-self: start;
+}
+
+.cpcontainer__title, .cpcontainer__content, .promobanner_timecontainer span{
+    align-self: center;
+    font-size: 15px;
+    grid-column: 2;
+    justify-self: start;
+    opacity: 0.8;
+}

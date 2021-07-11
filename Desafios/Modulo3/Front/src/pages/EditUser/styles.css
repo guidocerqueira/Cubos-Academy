@@ -1,0 +1,21 @@
+.bottomContent {
+    align-items: center;
+    display: flex;
+    justify-content: space-between;
+    max-width: 24rem;
+}
+
+h1 {
+    margin-bottom: -4rem;
+}
+
+.productContent {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    margin-left: 6.4rem;
+}
+
+.product-form {
+    display: flex;
+}

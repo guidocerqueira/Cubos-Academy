@@ -1,0 +1,150 @@
+.cart {
+    background: #1d2226;
+    color: white;
+    height: 560px;
+    overflow-y: auto;
+    position: sticky;
+    top: 127px;
+    width: 312px;
+}
+
+.cart .carttitle {
+    align-items: center;
+    align-self: center;
+    background: linear-gradient(0deg, #a785ed, #a785ed), #c4c4c4;
+    display: flex;
+    justify-content: center;
+    width: 100%;
+}
+
+.cart .cartcontainer {
+    background: rgba(0, 0, 0, 0.2);
+    display: flex;
+    flex-direction: column;
+    gap: 24px;
+    padding: 40px 16px;
+}
+
+.cartcontainer h3 {
+    align-self: center;
+    font-size: 16px;
+}
+
+.cartcontainer h2,
+.cartcontainer .cartillu {
+    align-self: center;
+}
+
+.cpcontainer span {
+    font-size: 12px;
+    margin-bottom: 3px;
+}
+
+.cpcontainer__inputgp {
+    display: flex;
+    height: 40px;
+    position: relative;
+    width: 100%;
+}
+
+.cpcountainer__input {
+    background: #0b1217;
+    border: 0;
+    border: 1px solid transparent;
+    color: white;
+    outline: 0;
+    padding: 16px 14px;
+    width: 100%;
+}
+
+.cpcountainer__input:hover {
+    border: 1px solid #8c8c8c;
+}
+
+.cpcountainer__input:focus {
+    border: 1px solid #fdfdfd;
+}
+
+.cpcountainer__input::placeholder {
+    color: #fdfdfd;
+    font-family: "Manrope", sans-serif;
+    font-weight: 500;
+    opacity: 0.7;
+}
+
+.cpcontainter__icon {
+    align-self: center;
+    height: 24px;
+    position: absolute;
+    right: 15px;
+    width: 24px;
+    z-index: 1;
+}
+
+.moviecart {
+    align-items: center;
+    display: flex;
+}
+
+.moviecart img {
+    height: 65px;
+    margin-right: 13px;
+    width: 45px;
+}
+
+.moviecartinfo {
+    display: flex;
+    flex-direction: column;
+    gap: 8px;
+    width: 100%;
+}
+
+.moviecartactions {
+    display: flex;
+    gap: 14px;
+}
+
+.moviecartactions svg:hover {
+    background: linear-gradient(0deg, rgba(107, 107, 107, 0.37), rgba(107, 107, 107, 0.37));
+}
+
+.moviecartactions svg:active {
+    background: linear-gradient(0deg, rgba(191, 191, 191, 0.37), rgba(191, 191, 191, 0.37));
+}
+
+.moviecartactions svg {
+    cursor: pointer;
+}
+
+@media (max-width: 1374px) {
+    .cart {
+        display: none;
+        padding: 40px;
+    }
+
+    .cart .cartcontainer {
+        background: #1d2226;
+        flex-grow: 1;
+        margin-top: -5px;
+    }
+
+    .cart.open {
+        bottom: 0;
+        display: flex;
+        flex-direction: column;
+        gap: 24px;
+        height: 100%;
+        left: 0;
+        margin-top: 88px;
+        position: fixed;
+        right: 0;
+        top: 0;
+        width: 100%;
+        z-index: 1;
+    }
+
+    .cart .carttitle {
+        background: unset;
+        justify-content: flex-start;
+    }
+}
