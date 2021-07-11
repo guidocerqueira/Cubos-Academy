@@ -1,0 +1,302 @@
+@import url('https://fonts.googleapis.com/css?family=Bai+Jamjuree:400,600&display=swap');
+
+html {
+  box-sizing: border-box;
+  font-size: 62.5%;
+}
+
+* {
+  box-sizing: inherit;
+}
+
+html, body {
+  height: 100%;
+}
+
+body {
+  margin: 0;
+  font-family: 'Bai Jamjuree', sans-serif;
+}
+
+a {
+  text-decoration: none;
+}
+
+
+.t-hero {
+  font-weight: 600;
+  color: hsl(210, 10%, 33%);
+  margin: 0;
+  margin-bottom: 1.6rem;
+  font-size: 4.6rem;
+  letter-spacing: -0.75px;
+  line-height: 1.261;
+}
+
+.t-hero-slogan {
+  color: hsl(201, 11%, 66%);
+  font-weight: 400;
+  font-size: 2rem;
+  letter-spacing: 0.15px;
+  line-height: 1.5;
+  max-width: 730px;
+  margin: 0 auto;
+}
+
+.t-section-title {
+  font-weight: 600;
+  color: hsl(210, 10%, 33%);
+  line-height: 1.25;
+  font-size: 3.6rem;
+  letter-spacing: -0.59px;
+  margin-top: 0;
+  margin-bottom: 1.9rem;
+}
+
+.t-section-slogan {
+  font-weight: 400;
+  color: hsl(201, 11%, 66%);
+  margin: 0 auto;
+  max-width: 73rem;
+  font-size: 1.8rem;
+  letter-spacing: 0.14px;
+  line-height: 1.667;
+}
+
+.t-body-heading {
+  margin: 0;
+  color: hsl(210, 10%, 33%);
+  font-weight: 600;
+  font-size: 2.4rem;
+  letter-spacing: -0.39px;
+  line-height: 1.25;
+}
+
+.t-body {
+  color: hsl(201, 11%, 66%);
+  font-size: 1.6rem;
+  letter-spacing: 0.12px;
+  margin: 0;
+  line-height: 1.875;
+}
+
+.t-footer {
+  font-size: 1.8rem;
+  letter-spacing: 0.14px;
+  font-weight: 400;
+  line-height: 1.667;
+  color: hsl(210, 10%, 33%);
+}
+
+.t-footer:hover {
+  color: hsl(171, 66%, 44%);
+}
+
+.button {
+  padding: 0;
+  border: none;
+  background: none;
+  font-size: 1.8rem;
+  font-weight: 600;
+  line-height: 1.667;
+  letter-spacing: 0.5px;
+  color: #FFF;
+  padding: 1.15rem 0;
+  border-radius: 2.8rem;
+  width: 22.7rem;
+}
+
+.button:hover {
+  cursor: pointer;
+  opacity: 0.75;
+}
+
+.button--cyan {
+  background-color: hsl(171, 66%, 44%);
+  border-bottom: 3px solid #209F8B;
+  box-shadow: 0 1rem 2rem rgba(137, 229, 199, 0.5);
+}
+
+.button--blue {
+  background-color: hsl(233, 100%, 69%);
+  border-bottom: 3px solid #5262D8;
+  box-shadow: 0 1rem 2rem rgba(0, 0, 0, 0.0988);
+}
+
+.main {
+  text-align: center;
+}
+
+.hero {
+  background-image: url(./images/bg-header-desktop.png);
+  background-repeat: no-repeat;
+  background-size: cover;
+  padding-top: 13.1rem;
+  padding-left: 3rem;
+  padding-right: 3rem;
+}
+
+.site-logo {
+  margin-bottom: 5.6rem;
+}
+
+.download-buttons {
+  display: flex;
+  justify-content: space-between;
+  max-width: 47rem;
+  margin: 0 auto;
+  margin-top: 4.8rem;
+}
+
+.pros {
+  margin-top: 15rem; 
+  margin-bottom: 15rem;
+  padding: 0 2rem;
+  padding: 0;
+}
+
+.pros-group {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  margin-top: 8rem;
+  margin-left: -3.2rem;
+}
+
+.pros-group-image-container {
+  margin-bottom: 0;
+}
+
+.pros-group-copies {
+  text-align: left;
+  margin-left: 11rem;
+  max-width: 35rem;
+  display: grid;
+  gap: 5.6rem;
+}
+
+.pros-image {
+  width: 100%;
+}
+
+.t-body-heading--pros {
+  margin-bottom: 0.8rem;
+}
+
+.anywhere {
+  margin-bottom: 16.1rem;
+}
+
+.anywhere-image {
+  width: 100%;
+}
+
+.anywhere-image-container {
+  max-width: 81.2rem;
+  margin: 0 auto;
+  margin-top: 11rem;
+}
+
+
+.supercharge {
+  padding: 0 3.2rem;
+}
+
+.work-flow-items {
+  display: flex;
+  flex-direction: row;
+  max-width: 111rem;
+  margin: 0 auto;
+  margin-top: 7.2rem;
+}
+.work-flow-item {
+  max-width: 35rem;
+}
+.work-flow-item:not(:last-child) {
+  margin-right: 3rem;
+}
+
+.work-flow-item__icon {
+  margin-bottom: 4rem;
+}
+
+.sponsors {
+  display: flex;
+  max-width: 111rem;
+  flex-direction: row;
+  justify-content: space-between;
+  align-items: center;    
+  margin: 15rem auto;
+}
+
+.call-to-action {
+  margin-bottom: 15rem;
+}
+
+.footer-logo {
+  width: 5.5rem;
+  height: 5.5rem;
+}
+
+.footer-logo__icon {
+  width: 100%;
+}
+
+.footer {
+  background-color: #F5F7F7;
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+  padding: 3.9rem 0;
+}
+
+.footer-nav__item {
+  display: block;
+  text-align: left;
+}
+
+.footer-nav {
+  margin-left: 13.5rem;
+  display: grid;
+  gap: 1.2rem 3rem;
+  grid-template-columns: repeat(3, 1fr);
+  grid-template-rows: repeat(2, 1fr);
+  grid-auto-flow: column;
+}
+
+.socials {
+  justify-self: flex-end;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-evenly;
+}
+
+.social {
+  display: flex;
+  align-items: center;
+}
+
+.social:hover .social__icon {
+  fill: hsl(171, 66%, 44%);
+}
+
+.socials {
+  margin-left: 31.5rem;
+  min-width: 12rem;
+  display: flex;
+  justify-content: space-between;
+}
+
+.attribution {
+  background-color: #F5F7F7;
+  margin: 0;
+  text-align: center;
+  padding-top: 2rem;
+  padding-bottom: 5rem;
+}
+
+.attribution a {
+  color: hsl(171, 66%, 44%);
+  text-decoration: underline;
+}

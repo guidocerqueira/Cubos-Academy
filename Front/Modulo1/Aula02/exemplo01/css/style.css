@@ -1,0 +1,23 @@
+body{
+    background: black url('../imagens/pattern.png') center/cover no-repeat;
+}
+
+h1{
+    font-size: 42px;
+}
+
+a {
+    text-decoration: none;
+}
+
+ul {
+    list-style-type: square;
+}
+
+.white-text {
+    color: white;
+}
+
+.signature {
+    font-family: 'DotGothic16', sans-serif;
+}

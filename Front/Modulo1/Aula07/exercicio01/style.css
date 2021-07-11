@@ -1,0 +1,137 @@
+@import url('https://fonts.googleapis.com/css2?family=Manrope:wght@400;500;700&display=swap');
+
+html {
+   box-sizing: border-box;
+   font-size: 100%;
+}
+
+* {
+   box-sizing: inherit;
+}
+
+body {
+   margin: 0;
+   padding: 0;
+   font-size: 13px;
+   font-family: 'Manrope', sans-serif;
+   display: flex;
+   flex-direction: column;
+   justify-content: center;
+   align-items: center;
+   background-color: hsl(210, 46%, 95%);
+   color: hsl(214, 17%, 51%);
+   height: 100vh;
+   font-weight: 500;
+}
+
+main,
+section,
+aside {
+   padding-left: 30px;
+   padding-right: 30px;
+}
+
+article {
+   background-color: white;
+   border-radius: 15px;
+   box-shadow: 7px 5px 11px 0px rgb(0 0 0 / 6%);
+   max-width: 730px;
+   height: 280px;
+   display: grid;
+   grid-template-areas:
+      "photo main"
+      "photo section";
+   grid-template-columns: 285px 445px;
+   justify-content: center;
+   align-content: center;
+   padding-bottom: 0;
+   overflow: unset;
+}
+
+article header img {
+   width: 355px;
+   border-radius: 15px 0 0 15px;
+}
+
+header {
+  grid-area: photo;
+  overflow: hidden;
+}
+
+main {
+   grid-area: main;
+   margin-top: 36px;
+   margin-bottom: 0;
+}
+
+main h1 {
+   font-size: 19.5px;
+   margin-top: 0;
+   color: hsl(217, 19%, 35%);
+}
+
+main p {
+   font-size: 13.5px;
+}
+
+main, section {
+  padding-left: 39px;
+  padding-right: 39px;
+}
+
+section {
+   display: flex;
+   align-items: center;
+   justify-content: space-between;
+   grid-area: section;
+   margin-bottom: 20px;
+}
+
+section .author__info {
+   display: grid;
+   grid-template-areas:
+      "photo fname"
+      "photo dateofpost";
+   justify-items: start;
+   align-items: center;
+   column-gap: 15px;
+}
+
+.author__info img {
+   width: 40px;
+   border-radius: 50%;
+   grid-area: photo;
+}
+
+.author__info h2 {
+   font-size: 13.5px;
+   grid-area: fname;
+   margin: 0;
+   color: hsl(217, 19%, 35%);
+}
+
+.author__info span {
+   grid-area: dateofpost;
+}
+
+section .button__share {
+   outline: none;
+   border: none;
+   border-radius: 50%;
+   width: 34px;
+   height: 34px;
+   cursor: pointer;
+   display: flex;
+   justify-content: center;
+   align-items: center;
+}
+
+.button__share:hover {
+   background-color: hsl(214, 17%, 51%);
+}
+
+.button__share:hover path {
+  fill: #FFF;
+}
+
+

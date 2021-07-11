@@ -1,0 +1,91 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Inscrição</title>
+    <style>
+      body {
+        align-items: center;
+        background-color: lightgrey;
+        display: flex;
+        font-family: Arial, Helvetica, sans-serif;
+        font-size: 15px;
+        height: 100vh;
+        justify-content: center;
+      }
+
+      main {
+        background-color: white;
+        border-radius: 7px;
+        box-shadow: 3px 3px 3px 0 #00000025;
+        display: flex;
+        flex-direction: column;
+        padding: 2rem;
+        width: 80%;
+        max-width: 400px;
+      }
+
+      p {
+        margin-bottom: 5px;
+      }
+
+      h1 {
+        font-size: 40px;
+      }
+
+      h2 {
+        font-size: 20px;
+      }
+
+
+      input {
+          margin: 0.7em;
+      }
+
+      
+      form {
+        display: flex;
+        flex-direction: column;
+      }
+
+      button {
+        background-color: deeppink;
+        border-radius: 20px;
+        color: white;
+        font-size: 15px;
+        height: 3em;
+        margin-top: 1em;
+      }
+
+      button:hover {
+        background-color: cornflowerblue;
+        color: white;
+      }
+
+    </style>
+  </head>
+  <body>
+    <main>
+      <h1>Inscrição</h1>
+      <p>Preencha corretamente os campos para castração gratuita.<br>
+        Apenas 1 animal por pessoa.</p>
+      <form action="">
+        <h2>Dados do Dono</h2>
+        <input type="text" placeholder="Nome"/>
+        <input type="text" placeholder="E-mail"/>
+        <h2>Espécie do Animal</h2>
+        <div>
+          <input id="rdCachorro" type="radio" name="especie" value="cachorro"  checked /><label for="rdCachorro">Cachorro</label>
+          <input id="rdGato" type="radio" name="especie" value="gato" /><label for="rdGato">Gato</label>
+          <input id="rdOutros" type="radio" name="especie" value="outros" disabled /><label for="rdOutros">Outros</label>
+        </div>
+        <div>
+          <input id="cb" type="checkbox" name="infos" checked /> <label for="cb">Gostaria de receber notícias relacionadas.</label>
+        </div>
+          
+        <button type="submit">Enviar</button>
+      </form>
+    </main>
+  </body>
+</html>

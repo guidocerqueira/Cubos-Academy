@@ -1,0 +1,109 @@
+html {
+    box-sizing: border-box;
+    font-size: 50%;
+}
+
+* {
+    box-sizing: inherit;
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    display: flex;
+    flex-direction: column;
+    min-height: 100vh;
+    background: url(./assets/background.svg), hsl(257, 40%, 49%);
+    background-size: cover;
+    color: white;
+    font-family: 'Open Sans', sans-serif;
+    font-weight: 300;
+    overflow: hidden;
+}
+
+header {
+    display: flex;
+    align-items: center;
+    justify-content: flex-start;
+    height: 20vh;
+    padding-left: 7rem;
+}
+
+header svg {
+    width: 23rem;
+}
+
+main {
+    display: flex;
+    align-items: center;
+    height: 65vh;
+}
+
+main .illustration {
+    display: flex;
+    justify-content: flex-end;
+    width: 53%;
+}
+
+main .illustration svg {
+    width: 85%;
+    margin-top: 5rem;
+    margin-right: 2rem;
+}
+
+main .content {
+    width: 45%;
+    padding: 8rem;
+}
+
+main .content h1 {
+    margin-bottom: 2rem;
+    font-family: 'Poppins', sans-serif;
+    font-size: 4.2rem;
+    font-weight: 500;
+}
+
+main .content p {
+    margin-bottom: 3rem;
+    font-size: 1.8rem;
+}
+
+main .content button {
+    padding: 1.8rem 6.8rem;
+    border: none;
+    border-radius: 10rem;
+    box-shadow: 3px 3px 20px rgba(1, 1, 1, 0.3);
+    color: hsl(257, 40%, 49%);
+    font-size: 2rem;
+    font-weight: 300;
+    cursor: pointer;
+    outline: none;
+}
+
+main .content button:hover {
+    background-color: #E880E8;
+    color: #FFF;
+}
+
+footer {
+    display: flex;
+    justify-content: flex-end;
+    align-items: center;
+    height: 15vh;
+    padding: 4rem 7rem;
+}
+
+footer svg {
+    height: 4.2rem;
+    width: 4.2rem;
+    margin-right: 1.6rem;
+    padding: 1rem;
+    border: 1px solid white;
+    border-radius: 50%;
+    fill: white;
+}
+
+footer svg:hover {
+    border-color: #FF52C1;
+    fill: #FF52C1;
+}

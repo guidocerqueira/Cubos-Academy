@@ -1,0 +1,130 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>A Casa dos Mil Corpos</title>
+    <style>
+        @font-face {
+            font-family: "horror";
+            src: url(assets/HappyEnding.otf);
+        }
+
+        body {
+            background: #2C2D29;
+            font-family: cursive;
+            color: #b17575;
+        }
+
+        h1 {
+            text-align: center;
+            font-size: 60px;
+        }
+
+        h2{
+            margin-top: 0px;
+            text-align: center;
+            font-size: 32px;
+        }
+
+        ul li {
+            text-align: justify;
+            font-size: 20px;
+            list-style: upper-roman;
+        } 
+
+        a {
+            text-decoration: none;
+        }
+
+        .horror {
+            font-family: "horror", monospace;
+        }
+
+        .img-principal {
+            display: block;
+            height: 500px;
+            margin-left: auto;
+            margin-right: auto;
+            box-shadow: 0 3px 8px black;
+            border-radius: 10px;
+        }
+
+        .img-banda {
+            display: block;
+            height: 150px;
+            border-radius: 3px;
+        }
+
+        .card-curiosidades {
+            background: #640e21;
+            color: #F7F8F7;
+            border-radius: 10px;
+            padding: 25px;
+            width: 50%;
+            margin-top: 15px;
+            margin-left: auto;
+            margin-right: auto;
+        }
+
+        .card-musicas {
+            background: #971c26;
+            color: #F7F8F7;
+            border-radius: 10px;
+            padding: 25px;
+            width: 50%;
+            margin-top: 15px;
+            margin-left: auto;
+            margin-right: auto;
+        }
+
+        .card-banda {
+            display: flex;
+            font-size: 16px;
+            margin-top: auto;
+            margin-bottom: auto;
+        }
+
+        .card-audio {
+            display: inline-block;
+            font-size: 16px;
+            margin-top: auto;
+            margin-bottom: auto;
+            margin-top: 15px;
+        }
+
+    </style>
+</head>
+<body>
+    <div>
+        <img src="assets/poster.jpg" class="img-principal" alt="Poster do filme A Cada dos Mil Corpos"/>
+        <h1 class="horror">A Casa dos Mil Corpos</h1>
+    </div>
+    <div class="card-curiosidades">
+        <h2>Curiosidades</h2>
+        <ul>
+        <li>As filmagens de A Casa dos 1000 Corpos foram realizadas em 2000, mas o filme apenas chegou aos cinemas americanos 3 anos depois.</li>
+        <li>Apesar de ter produzido A Casa dos 1000 Corpos, a Universal Pictures se recusou a lançá-lo nos cinemas americanos devido à sua censura NC-17 (proibido para menores de 17 anos não-acompanhados).</li>
+        <li> Filme de estréia de Rob Zombie como diretor.</li>
+        <li> Os nomes de vários personagens são homenagens a filmes estrelados pelos irmãos Marx: Capitão Jeffrey T. Spaulding e Signor Emanuel Ravelli, de Os Galhofeiros (1930); Prof. Quincy Adams Wagstaff, de Horse Feathers (1932); Rufus T. Firefly, de Duck Soup (1933); Otis B. Driftwood, de A Night at the Opera (1935); e Dr. Hugo Z. Hackenbush, de Um Dia nas Corridas (1937).</li>
+        <li>A casa exibida no filme é a mesma usada em A Melhor Casa Suspeita do Texas (1982).</li>
+        <li>Após a última cena do filme, aparecem os dizeres "The End?".</li>
+        <li>Lançado diretamente em vídeo no Brasil.</li>
+        <li>O orçamento de A Casa dos 1000 Corpos foi de US$ 7 milhões.</li>
+        </ul>
+    </div>
+
+    <div class="card-musicas">
+        <h2>Rob Zombie</h2>
+        <div class="card-banda">
+            <a href="https://pt.wikipedia.org/wiki/Rob_Zombie" target="_blank"><img src="https://upload.wikimedia.org/wikipedia/commons/thumb/5/56/Robzombiegfdl.PNG/200px-Robzombiegfdl.PNG" class="img-banda" alt="Foto de Rob Zombie" /></a>
+            <p style="margin-left: 10px; text-align: justify;">Robert Bartleh Cummings, ou simplesmente Rob Zombie (Haverhill, 12 de janeiro de 1965), é um músico, letrista, roteirista, produtor, diretor de cinema e produtor musical norte-americano. Ficou conhecido por intermédio da extinta banda de Groove/Industrial Metal, White Zombie, dando início a sua carreira solo em 1998. Ultimamente tem ganhado maior notoriedade internacional devido aos seus filmes que têm se tornado clássicos entre os fãs do gênero de terror.</p>
+        </div>
+        <div class="card-audio">
+            <audio src="assets/robzombie.mp3" controls></audio>
+            Música tema de <span class="horror">A Cada dos Mil Corpos</span>, criada por Rob Zombie.
+        </div>
+    </div>
+</body>
+</html>

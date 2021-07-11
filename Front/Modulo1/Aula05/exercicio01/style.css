@@ -1,0 +1,131 @@
+body {
+    align-items: center;
+    background: hsl(0, 100%, 74%) url("assets/background.png") top left/cover;
+    display: flex;
+    font-family: "Poppins", sans-serif;
+    font-size: 16px;
+    justify-content: center;
+    margin-top: 10%;
+  }
+
+  p {
+    color: white;
+    font-weight: 500;
+  }
+  
+  h1 {
+    color: white;
+    font-size: 50px;
+    font-weight: 700;
+    padding-bottom: 11px;
+  }
+  
+  h2 {
+    color: hsl(246, 25%, 77%);
+    font-size: 11px;
+    font-weight: 700;
+    text-align: center;
+  }
+  
+  form {
+    align-items: center;
+    display: flex;
+    flex-direction: column;
+  }
+  
+  form > div {
+    margin-bottom: 5%;
+  }
+  
+  form div:first-child {
+    margin-top: 5%;
+  }
+  
+  input {
+    border: 1px solid hsl(246, 25%, 77%);
+    margin-bottom: 3%;
+    padding-left: 30px;
+    width: 90%;
+  }
+  
+  input:focus {
+    border: none;
+    outline: 2px solid hsl(248, 32%, 49%);
+    outline-style: groove;
+  }
+  
+  input,
+  .botao-form {
+    border-radius: 5px;
+    height: 56px;
+  }
+  
+  .botao-form {
+    background-color: hsl(154, 59%, 51%);
+    border: none;
+    box-shadow: 0 4px 0 0 hsl(165, 59%, 51%);
+    color: white;
+    font-weight: 600;
+    width: 97%;
+  }
+  
+  .botao-form:hover {
+    background-color: #77e2b3;
+  }
+  
+  .geral {
+    align-items: center;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    width: 90%;
+  }
+
+  .esquerda {
+    flex: 1 1 auto;
+    max-width: 560px;
+  }
+
+  .direita {
+    display: flex;
+    flex: 1 0 auto;
+    flex-direction: column;
+    justify-content: flex-end;
+    max-width: 540px;
+  }
+  
+  .conteudo {
+    align-items: center;
+    background-color: white;
+    display: flex;
+    flex-direction: column;
+    height: 474px;
+    justify-content: center;
+    margin-top: 24px;
+  }
+  
+  .botao {
+    align-items: center;
+    background-color: hsl(248, 32%, 49%);
+    color: white;
+    display: flex;
+    font-size: 15px;
+    font-weight: 500;
+    height: 60px;
+    justify-content: center;
+    width: 100%;
+  }
+  
+  .conteudo,
+  .botao {
+    border-radius: 10px;
+    box-shadow: 0 4px 4px 0 rgba(0, 0, 0, 0.25);
+    flex-grow: 0;
+    flex-shrink: 0;
+  }
+  
+  .form {
+    width: 90%;
+
+  }
+  

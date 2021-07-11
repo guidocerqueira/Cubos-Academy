@@ -1,0 +1,126 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Godzilla</title>
+    <style>
+        @font-face {
+            font-family: "godzilla";
+            src: url(assets/Godzilla.ttf);
+        }
+
+        body {
+            background: #F7F8F7;
+            font-family: cursive;
+            color: #2C2D29;
+        }
+
+        h1 {
+            text-align: center;
+            font-size: 60px;
+        }
+
+        h2{
+            margin-top: 0px;
+            text-align: center;
+            font-size: 32px;
+        }
+
+        ul li {
+            text-align: justify;
+            font-size: 20px;
+            list-style: upper-roman;
+        } 
+
+        a {
+            text-decoration: none;
+        }
+
+        .godzilla {
+            font-family: "godzilla", monospace;
+        }
+
+        .img-principal {
+            display: block;
+            height: 500px;
+            margin-left: auto;
+            margin-right: auto;
+            box-shadow: 0 3px 8px black;
+            border-radius: 10px;
+        }
+
+        .img-banda {
+            display: block;
+            height: 150px;
+            border-radius: 3px;
+        }
+
+        .card-curiosidades {
+            background: #FC4E1E;
+            color: #F7F8F7;
+            border-radius: 10px;
+            padding: 25px;
+            width: 50%;
+            margin-top: 15px;
+            margin-left: auto;
+            margin-right: auto;
+        }
+
+        .card-musicas {
+            background: #FDB350;
+            border-radius: 10px;
+            padding: 25px;
+            width: 50%;
+            margin-top: 15px;
+            margin-left: auto;
+            margin-right: auto;
+        }
+
+        .card-banda {
+            display: flex;
+            font-size: 16px;
+            margin-top: auto;
+            margin-bottom: auto;
+        }
+
+        .card-audio {
+            display: inline-block;
+            font-size: 16px;
+            margin-top: auto;
+            margin-bottom: auto;
+            margin-top: 15px;
+        }
+
+    </style>
+</head>
+<body>
+    <div>
+        <img src="assets/godzilla.png" class="img-principal" alt="Imagem do Godzilla"/>
+        <h1 class="godzilla">GODZILLA</h1>
+    </div>
+    <div class="card-curiosidades">
+        <h2>Curiosidades</h2>
+        <ul>
+        <li>A palavra “<span class="godzilla">Godzilla</span>” é a tradução de “Gojira”, nome que une duas palavras em japonês: “gorira”, que significa “gorila”; e “kujira”, que significa “baleia”</li>
+
+        <li><span class="godzilla">Godzilla</span> tem uma estrela na Calçada da Fama, em Hollywood, desde 2004</li>
+
+        <li><span class="godzilla">Godzilla</span> originalmente era para se parecer com um polvo gigante</li>
+        </ul>
+    </div>
+
+    <div class="card-musicas">
+        <h2>Musicas /Bandas</h2>
+        <div class="card-banda">
+            <a href="https://pt.wikipedia.org/wiki/Gojira_(banda)" target="_blank"><img src="assets/gojira.jpeg" class="img-banda" alt="Foto da Banda Gojira" /></a>
+            <p style="width: 45%; text-align: justify; margin-left: 25px;">Gojira é uma banda de death metal progressivo francesa formada em 1996 em Baiona, França. Formado inicialmente com o nome de <span class="godzilla">Godzilla</span>, a banda alterou o nome em 2001</p>
+        </div>
+        <div class="card-audio">
+            <audio src="assets/blue-oyster-cult-godzilla.mp3" controls></audio>
+            Música de Blue Öyster Cult chamada <span class="godzilla">Godzilla</span>
+        </div>
+    </div>
+</body>
+</html>
