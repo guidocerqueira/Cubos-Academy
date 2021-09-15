@@ -1,0 +1,49 @@
+.snackbar {
+    align-items: center;
+    border-radius: 0.5rem;
+    bottom: 1vh;
+    color:rgba(0, 0, 0, 0.767);
+    display: flex;
+    font-weight: 600;
+    height: 0;
+    justify-content: center;
+    left: 0;
+    margin: 0 auto 0 auto;
+    position: fixed;
+    right: 0;
+    transition: 0.5s;
+    width: 0;
+    z-index: 3;
+}
+
+.aberta {
+    cursor: pointer;
+    min-height: 8vh;
+    min-width: 20vw;
+    padding: 1.5rem;
+}
+
+.aberta span{
+    font-size: 0.9vw;
+    margin: 0 auto 0 auto;
+    margin-left: 2rem;
+}
+
+.erro {
+    background-color: var(--vermelho-perigo);
+}
+
+.sucesso {
+    background-color: var(--verde-sucesso);
+    color: var(--branco);
+}
+
+.aberta .icone-alerta{
+    align-items: center;
+    border-radius: 50%;
+    display: flex;
+    font-size: 2.5rem;
+    height: 3rem;
+    justify-content: center;
+    width: 3rem;
+}

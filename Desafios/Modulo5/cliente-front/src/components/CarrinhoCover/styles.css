@@ -1,0 +1,27 @@
+.coverup {
+    align-items: center;
+    background-color: white;
+    display: flex;
+    flex-direction: column;
+    height: 61.5vh;
+    position: absolute;
+    width: 100%;
+    z-index: 100;
+}
+
+.coverup img {
+    height: 11rem;
+    margin-top: 6rem;
+}
+
+.cover-texto {
+    color: #525459;
+    font-size: 2.0rem;
+    font-weight: 600;
+    margin-top: 2.5rem;
+    text-align: center;
+}
+
+.coverup .aceitar {
+    margin-top: 7rem;
+}

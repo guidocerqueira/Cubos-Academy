@@ -1,0 +1,67 @@
+.img-cadastro {
+    background-image: url('../../assets/bg-cadastro.png');
+    background-position: left;
+    background-repeat:no-repeat;
+    background-size: contain;
+    height: 115vh;
+    overflow: hidden;
+}
+
+.cadastro {
+    border-radius: 0 0 0 9rem;
+    box-shadow: 0px 0.4rem 1.6rem 0px #32323226;
+    display: flex;
+    flex-direction: column;
+    height: 112vh;
+    margin-left: auto;
+    padding: 1rem 11rem 0 9rem;
+    position: relative;
+    width: 42%;
+    z-index: 1;
+}
+
+.formulario {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    gap: 4rem;
+}
+
+.title-box {
+    align-items: center;
+    display: flex;
+    justify-content: space-between;
+    margin-bottom: auto;
+}
+
+.button-box {
+    display: flex;
+    gap: 1.6rem;
+}
+
+.link-box {
+    color: var(--cinza-azulado);
+    display: flex;
+    font-size: 1.2rem;
+    gap: 1rem;
+    margin-bottom: 4rem;
+}
+
+span {
+    font-size: inherit;
+}
+
+
+.form-um, .form-dois, .form-tres {
+    display: flex;
+    flex-direction: column;
+    gap: 3.7rem;
+}
+
+.form-dois{
+    gap: 6rem;
+}
+
+.form-tres{
+    gap: 9rem;
+}

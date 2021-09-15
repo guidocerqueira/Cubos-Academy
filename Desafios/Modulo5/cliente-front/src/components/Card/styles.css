@@ -1,0 +1,78 @@
+.card {
+    border-radius: 2.4rem;
+    box-shadow: 0px 4px 6px 0px #3232323D;
+    cursor: pointer;
+    display: flex;
+    height: 32vh;
+    padding: 3.2rem;
+    position: relative;
+    transition: 0.2s;
+    width: 36vw;
+    z-index: 0;
+}
+
+.card:hover{
+    transform: translateZ(0);
+    transform: scale(1.02);
+}
+
+.card-titulo{
+    color: var(--cinza-medio);
+    font-size: 2rem;
+    font-weight: 600;
+    margin-bottom: 0.8rem;
+}
+
+.card-texto{
+    color: #222222DE;
+    font-size: 1.6rem;
+    margin-bottom: auto;
+}
+
+.card-preco {
+    align-items: center;
+    background-color: #0d8a5010;
+    border-radius: 0.4rem;
+    color: #006335;
+    display: flex;
+    font-size: 1rem;
+    height: 1.8rem;
+    justify-content: center;
+    padding: 0.4rem;
+    width: 7.8rem;
+}
+
+.card img {
+    border: 0.2rem solid #FB3B0033;
+    border-radius: 1.6rem;
+    height: 100%;
+    width: 250px;
+}
+
+.blur{
+    filter: blur(0.6rem);
+    opacity: 0.6;
+}
+
+.excluir{
+    background-color: transparent;
+    color: var(--vermelho-perigo);
+    margin-bottom: 2.9rem;
+}
+
+.botoes-edicao{
+    align-items: center;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    left: 25%;
+    position: absolute;
+    top: 25%;
+    z-index: 1;
+}
+
+.imagem-card {
+    display: flex;
+    flex-direction: column;
+    margin-left: auto;
+}

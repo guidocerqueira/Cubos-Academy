@@ -1,0 +1,166 @@
+.cart-titulo {
+    align-items: center;
+    display: flex;
+    font-family: var(--baloo);
+    font-size: 3rem;
+}
+
+.cart-titulo img {
+    height: auto;
+    margin-right: 2rem;
+    width: 5rem;
+}
+
+.padded {
+    padding: 7rem 7rem 0 7rem;
+}
+
+.area-endereco {
+    margin: 1.5rem;
+}
+
+.text-endereco {
+    color: var(--cinza-azulado);
+    font-size: 1.2rem;
+    font-weight: 400;
+    margin-left: 1rem;
+}
+
+.txt-end-entrega {
+    color: var(--laranja-intenso);
+    font-size: 1.2rem;
+    font-weight: 700;
+}
+
+.alerta-endereco {
+    background-color: #FB3B0033;
+    border-radius: 0.5rem;
+    color: #AA320F;
+    cursor: pointer;
+    font-size: 1.4rem;
+    font-weight: 700;
+    padding: 1rem 1.5rem;
+    text-decoration: underline;
+}
+
+.txt-tempo {
+    color: #525459;
+    font-size: 1.8rem;
+    font-weight: 600;
+}
+
+.cartbox {
+    display: flex;
+    flex-direction: column;
+    gap: 0.5rem;
+    height: 18vh;
+    margin-top: 2rem;
+    overflow-y: auto;
+}
+
+.mini-card {
+    display: flex;
+}
+
+.mini-card img {
+    border-radius: 1.5rem;
+    height: 6.5rem;
+    margin-right: 2rem;
+    width: 7rem;
+}
+
+.mini-detalhes {
+    display: flex;
+    flex-direction: column;
+    gap: 0.4rem;
+}
+
+.mini-nome {
+    color: #525459;
+    font-size: 1.6rem;
+    font-weight: 600;
+}
+
+.mini-quantidade {
+    color: #525459;
+    font-size: 1.2rem;
+    font-weight: 500;
+}
+
+.mini-preco {
+    align-items: center;
+    background-color: #0d8a5010;
+    border-radius: 0.4rem;
+    color: #006335;
+    display: flex;
+    font-size: 1rem;
+    font-weight: 600;
+    height: 1.8rem;
+    justify-content: center;
+    padding: 0.4rem;
+    width: 7.8rem;
+}
+
+.fim-pedido {
+    border-top: 1px solid #D4D4D4;
+    display: flex;
+    flex-direction: column;
+    gap: 1.5rem;
+    justify-content: center;
+    margin-top: 4rem;
+}
+
+.fim-pedido button {
+    align-self: center;
+}
+
+.txt-fim {
+    color: #525459;
+    font-size: 1.4rem;
+    font-weight: 400;
+}
+
+.fim-taxa, .fim-total, .fim-subtotal{
+    display: flex;
+    justify-content: space-between;
+}
+
+.txt-total{
+    color: #525459;
+    font-size: 2.4rem;
+    font-weight: 600;
+}
+
+.txt-resto{
+    color: #525459;
+    font-size: 1.4rem;
+    font-weight: 600;
+}
+
+.centraliza {
+    align-self: center;
+}
+
+.coloca-um-gapizinho {
+    display: flex;
+    flex-direction: column;
+    gap: 4rem;
+}
+
+.topzera {
+    margin-top: 4rem;
+}
+
+.check-icon {
+    height: auto;
+    margin: 7rem auto 2rem auto;
+    width: 11.4rem;
+}
+
+.sucesso-modal {
+    color: #525459;
+    font-size: 2.0rem;
+    font-weight: 600;
+    margin-bottom: 8rem;
+    text-align: center;
+}

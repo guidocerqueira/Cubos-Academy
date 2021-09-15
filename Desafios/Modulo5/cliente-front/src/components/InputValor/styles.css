@@ -1,0 +1,18 @@
+.input-value {
+    position: relative;
+}
+
+.input-value input {
+    padding-left: 4rem;
+}
+
+.cifrao {
+    left: 1rem;
+    position: absolute;
+    top: 3.9rem;
+}
+
+.cifrao span{
+    color: var(--cinza-escuro);
+    font-size: 1.6rem;
+}
